@@ -15,13 +15,13 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
-  - name: surgical technique
-    schemaKey: MeasurementTechniqueType
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 3119438213
-  numberOfFiles: 22
-  numberOfSubjects: 16
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 3556823829
+  numberOfFiles: 27
+  numberOfSubjects: 14
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
