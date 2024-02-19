@@ -19,9 +19,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 3556823829
-  numberOfFiles: 27
-  numberOfSubjects: 14
+  numberOfBytes: 5557893547
+  numberOfFiles: 41
+  numberOfSubjects: 18
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
@@ -33,7 +33,7 @@ assetsSummary:
   - PlaneSegmentation
   - ImagingPlane
 citation: Information processing by distinct types of projection neuron in the mouse
-  olfactory cortex (2024). (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
+  olfactory cortex (2024). (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000785/draft
 contributor:
 - awardNumber: 5 R01 DC 017437-05
   name: National Institutes of Health (NIH)
@@ -41,12 +41,10 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-01-11T20:03:25.652907+00:00'
-datePublished: '2024-01-18T00:54:48.490104+00:00'
 description: "Calcium imaging of pyramidal neurons in the piriform cortex (PCx) under
   passive odor stimulation or task-relevant odor stimulation. \nSubsets of neurons
   are are retrograde-labeled to indicated their projection targets (one target per
   animal): olfactory bulb (OB) and medial prefrontal cortex (mPFC)."
-doi: 10.80507/dandi.123456/0.123456.1234
 ethicsApproval: []
 id: DANDI:000785/draft
 identifier: DANDI:000785
@@ -65,23 +63,17 @@ manifestLocation:
 name: Information processing by distinct types of projection neuron in the mouse olfactory
   cortex
 protocol: []
-publishedBy:
-  endDate: '2024-01-18T00:54:48.490104+00:00'
-  id: urn:uuid:6b95e5e5-6a68-445c-8e78-0c8817412665
-  name: DANDI publish
-  schemaKey: PublishActivity
-  startDate: '2024-01-18T00:54:48.490104+00:00'
-  wasAssociatedWith:
-  - id: urn:uuid:1aa74157-b062-4e04-a1d5-5ac21c1809c2
-    identifier: RRID:SCR_017571
-    name: DANDI API
-    schemaKey: Software
-    version: 0.1.0
-relatedResource: []
+relatedResource:
+- name: Demo code repository
+  relation: dcite:IsSupplementedBy
+  repository: Projection differences
+  schemaKey: Resource
+  url: https://gitlab.com/fleischmann-lab/calcium-imaging/projection-difference
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
 studyTarget: []
 url: https://dandiarchive.org/dandiset/000785/draft
 version: draft
-wasGeneratedBy: []
+wasGeneratedBy:
+- {}
