@@ -5,9 +5,9 @@
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
 about: []
 access:
-- embargoedUntil: '2028-03-10'
+- embargoedUntil: '2026-05-19'
   schemaKey: AccessRequirements
-  status: dandi:EmbargoedAccess
+  status: dandi:OpenAccess
 assetsSummary:
   approach:
   - name: microscopy approach; cell population imaging
@@ -34,9 +34,9 @@ assetsSummary:
   - ProcessingModule
   - PlaneSegmentation
   - ImagingPlane
-citation: Daste, Simon; Pham, Tuan (2026) Information processing by distinct types
-  of projection neuron in the mouse olfactory cortex (Version draft) [Data set]. DANDI
-  Archive. https://dandiarchive.org/dandiset/000785/draft
+citation: Daste, Simon; Pham, Tuan; Fleischmann, Alexander (2026) Information processing
+  by distinct types of projection neuron in the mouse olfactory cortex (Version draft)
+  [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000785/draft
 contributor:
 - affiliation:
   - identifier: https://ror.org/05gq02987
@@ -72,7 +72,48 @@ contributor:
   - dcite:Software
   - dcite:Author
   - dcite:FormalAnalysis
+  - dcite:Researcher
   schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/05gq02987
+    name: Department of Neuroscience, Brown University
+    schemaKey: Affiliation
+  email: alexander_fleischmann@brown.edu
+  identifier: 0000-0001-7956-9096
+  includeInCitation: true
+  name: Fleischmann, Alexander
+  roleName:
+  - dcite:Author
+  - dcite:Conceptualization
+  - dcite:ContactPerson
+  - dcite:ProjectAdministration
+  - dcite:Researcher
+  - dcite:Supervision
+  - dcite:FundingAcquisition
+  schemaKey: Person
+- awardNumber: R01DC017437
+  identifier: https://ror.org/01cwqze88
+  name: National Institutes of Health (NIH)
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: 1U19NS112953-01
+  identifier: https://ror.org/01cwqze88
+  name: National Institutes of Health (NIH)
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: R01DC016782
+  identifier: https://ror.org/01cwqze88
+  name: National Institutes of Health (NIH)
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- name: Robert J. and Nancy D. Carney Institute for Brain Science, Brown University
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: https://carney.brown.edu/
 dateCreated: '2024-01-11T20:03:25.652907+00:00'
 description: "Calcium imaging of pyramidal neurons in the piriform cortex (PCx) under
   passive odor stimulation or task-relevant odor stimulation. \nSubsets of neurons
@@ -96,7 +137,7 @@ manifestLocation:
 name: Information processing by distinct types of projection neuron in the mouse olfactory
   cortex
 relatedResource:
-- name: Demo code repository
+- name: Code repository
   relation: dcite:IsSupplementedBy
   repository: Projection differences
   schemaKey: Resource
