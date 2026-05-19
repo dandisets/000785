@@ -34,9 +34,9 @@ assetsSummary:
   - ProcessingModule
   - PlaneSegmentation
   - ImagingPlane
-citation: Daste, Simon; Pham, Tuan; Fleischmann, Alexander (2026) Information processing
-  by distinct types of projection neuron in the mouse olfactory cortex (Version draft)
-  [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000785/draft
+citation: Daste, Simon; Pham, Tuan; Fleischmann, Alexander (2026) Projection-specific
+  routing of odor information in the olfactory cortex (Version draft) [Data set].
+  DANDI Archive. https://dandiarchive.org/dandiset/000785/draft
 contributor:
 - affiliation:
   - identifier: https://ror.org/05gq02987
@@ -134,14 +134,20 @@ license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000785/versions/draft/assets/
-name: Information processing by distinct types of projection neuron in the mouse olfactory
-  cortex
+name: Projection-specific routing of odor information in the olfactory cortex
 relatedResource:
 - name: Code repository
   relation: dcite:IsSupplementedBy
-  repository: Projection differences
+  repository: GitLab
+  resourceType: dcite:Software
   schemaKey: Resource
   url: https://gitlab.com/fleischmann-lab/calcium-imaging/projection-difference
+- name: Preprint manuscript
+  relation: dcite:IsDescribedBy
+  repository: bioRxiv
+  resourceType: dcite:Preprint
+  schemaKey: Resource
+  url: https://www.biorxiv.org/content/10.64898/2025.12.12.694045v1
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
