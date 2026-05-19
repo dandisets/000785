@@ -34,16 +34,20 @@ assetsSummary:
   - ProcessingModule
   - PlaneSegmentation
   - ImagingPlane
-citation: Daste, Simon (2026) Information processing by distinct types of projection
-  neuron in the mouse olfactory cortex (Version draft) [Data set]. DANDI Archive.
-  https://dandiarchive.org/dandiset/000785/draft
+citation: Daste, Simon; Pham, Tuan (2026) Information processing by distinct types
+  of projection neuron in the mouse olfactory cortex (Version draft) [Data set]. DANDI
+  Archive. https://dandiarchive.org/dandiset/000785/draft
 contributor:
-- awardNumber: 5 R01 DC 017437-05
-  name: National Institutes of Health (NIH)
-  roleName:
-  - dcite:Funder
-  schemaKey: Organization
-- includeInCitation: true
+- affiliation:
+  - identifier: https://ror.org/05gq02987
+    name: Department of Neuroscience, Brown University
+    schemaKey: Affiliation
+  - identifier: https://ror.org/00py81415
+    name: Department of Neurobiology, Duke University
+    schemaKey: Affiliation
+  email: simon.daste@brown.edu
+  identifier: 0000-0001-5139-2743
+  includeInCitation: true
   name: Daste, Simon
   roleName:
   - dcite:Author
@@ -51,6 +55,23 @@ contributor:
   - dcite:ContactPerson
   - dcite:DataCollector
   - dcite:Researcher
+  - dcite:DataManager
+  - dcite:FormalAnalysis
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/05gq02987
+    name: Department of Neuroscience, Brown University
+    schemaKey: Affiliation
+  email: tuanhpham@brown.edu
+  identifier: 0000-0001-6891-3760
+  includeInCitation: true
+  name: Pham, Tuan
+  roleName:
+  - dcite:ContactPerson
+  - dcite:DataManager
+  - dcite:Software
+  - dcite:Author
+  - dcite:FormalAnalysis
   schemaKey: Person
 dateCreated: '2024-01-11T20:03:25.652907+00:00'
 description: "Calcium imaging of pyramidal neurons in the piriform cortex (PCx) under
@@ -74,7 +95,6 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000785/versions/draft/assets/
 name: Information processing by distinct types of projection neuron in the mouse olfactory
   cortex
-protocol: []
 relatedResource:
 - name: Demo code repository
   relation: dcite:IsSupplementedBy
