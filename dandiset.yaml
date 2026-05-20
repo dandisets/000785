@@ -34,9 +34,9 @@ assetsSummary:
   - ProcessingModule
   - PlaneSegmentation
   - ImagingPlane
-citation: Daste, Simon; Pham, Tuan; Fleischmann, Alexander (2026) Projection-specific
-  routing of odor information in the olfactory cortex (Version 0.260519.1753) [Data
-  set]. DANDI Archive. https://doi.org/10.48324/dandi.000785/0.260519.1753
+citation: Daste, Simon; Pham, Tuan; Pierré, Andrea ; Fleischmann, Alexander (2026)
+  Projection-specific routing of odor information in the olfactory cortex (Version
+  0.260520.1603) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.000785/0.260520.1603
 contributor:
 - affiliation:
   - identifier: https://ror.org/05gq02987
@@ -57,6 +57,7 @@ contributor:
   - dcite:Researcher
   - dcite:DataManager
   - dcite:FormalAnalysis
+  - dcite:DataCurator
   schemaKey: Person
 - affiliation:
   - identifier: https://ror.org/05gq02987
@@ -73,6 +74,15 @@ contributor:
   - dcite:Author
   - dcite:FormalAnalysis
   - dcite:Researcher
+  - dcite:DataCurator
+  schemaKey: Person
+- email: andrea_pierre@brown.edu
+  identifier: 0000-0003-4501-5428
+  includeInCitation: true
+  name: 'Pierré, Andrea '
+  roleName:
+  - dcite:Other
+  - dcite:Software
   schemaKey: Person
 - affiliation:
   - identifier: https://ror.org/05gq02987
@@ -115,14 +125,14 @@ contributor:
   schemaKey: Organization
   url: https://carney.brown.edu/
 dateCreated: '2024-01-11T20:03:25.652907+00:00'
-datePublished: '2026-05-19T17:53:29.822991+00:00'
-description: "Calcium imaging of pyramidal neurons in the piriform cortex (PCx) under
-  passive odor stimulation or task-relevant odor stimulation. \nSubsets of neurons
-  are are retrograde-labeled to indicated their projection targets (one target per
-  animal): olfactory bulb (OB) and medial prefrontal cortex (mPFC)."
-doi: 10.48324/dandi.000785/0.260519.1753
+datePublished: '2026-05-20T16:03:07.540456+00:00'
+description: 'Calcium imaging of neurons in mouse piriform cortex (PCx) under passive
+  odor stimulation or task-relevant odor stimulation (Go/NoGo). Subsets of neurons
+  are are retrogradely-labeled to indicated their projection targets (one target per
+  animal): olfactory bulb (OB) and medial prefrontal cortex (mPFC).'
+doi: 10.48324/dandi.000785/0.260520.1603
 ethicsApproval: []
-id: DANDI:000785/0.260519.1753
+id: DANDI:000785/0.260520.1603
 identifier: DANDI:000785
 keywords:
 - calcium imaging
@@ -135,16 +145,16 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://dandiarchive.s3.amazonaws.com/dandisets/000785/0.260519.1753/assets.yaml
+- https://dandiarchive.s3.amazonaws.com/dandisets/000785/0.260520.1603/assets.yaml
 name: Projection-specific routing of odor information in the olfactory cortex
 publishedBy:
-  endDate: '2026-05-19T17:53:29.822991+00:00'
-  id: urn:uuid:42608685-ad8c-4392-931b-4d65dc2e505f
+  endDate: '2026-05-20T16:03:07.540456+00:00'
+  id: urn:uuid:db8f413b-f7f7-481f-a38c-12f9dad9c178
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2026-05-19T17:53:29.822991+00:00'
+  startDate: '2026-05-20T16:03:07.540456+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:9503c2c8-295c-4199-ae85-9d173547389c
+  - id: urn:uuid:56ad3717-4f0b-4a92-98fe-8a4cf5c9edd7
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
@@ -171,8 +181,8 @@ studyTarget:
 - mPFC
 - olfaction
 - OB
-url: https://dandiarchive.org/dandiset/000785/0.260519.1753
-version: 0.260519.1753
+url: https://dandiarchive.org/dandiset/000785/0.260520.1603
+version: 0.260520.1603
 wasGeneratedBy:
 - endDate: '2025-12-31T23:59:00Z'
   identifier: ''
