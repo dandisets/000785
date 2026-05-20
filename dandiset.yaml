@@ -34,9 +34,9 @@ assetsSummary:
   - ProcessingModule
   - PlaneSegmentation
   - ImagingPlane
-citation: Daste, Simon; Pham, Tuan; Fleischmann, Alexander (2026) Projection-specific
-  routing of odor information in the olfactory cortex (Version draft) [Data set].
-  DANDI Archive. https://dandiarchive.org/dandiset/000785/draft
+citation: Daste, Simon; Pham, Tuan; Pierré, Andrea ; Fleischmann, Alexander (2026)
+  Projection-specific routing of odor information in the olfactory cortex (Version
+  draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000785/draft
 contributor:
 - affiliation:
   - identifier: https://ror.org/05gq02987
@@ -57,6 +57,7 @@ contributor:
   - dcite:Researcher
   - dcite:DataManager
   - dcite:FormalAnalysis
+  - dcite:DataCurator
   schemaKey: Person
 - affiliation:
   - identifier: https://ror.org/05gq02987
@@ -73,6 +74,15 @@ contributor:
   - dcite:Author
   - dcite:FormalAnalysis
   - dcite:Researcher
+  - dcite:DataCurator
+  schemaKey: Person
+- email: andrea_pierre@brown.edu
+  identifier: 0000-0003-4501-5428
+  includeInCitation: true
+  name: 'Pierré, Andrea '
+  roleName:
+  - dcite:Other
+  - dcite:Software
   schemaKey: Person
 - affiliation:
   - identifier: https://ror.org/05gq02987
@@ -115,10 +125,10 @@ contributor:
   schemaKey: Organization
   url: https://carney.brown.edu/
 dateCreated: '2024-01-11T20:03:25.652907+00:00'
-description: "Calcium imaging of pyramidal neurons in the piriform cortex (PCx) under
-  passive odor stimulation or task-relevant odor stimulation. \nSubsets of neurons
-  are are retrograde-labeled to indicated their projection targets (one target per
-  animal): olfactory bulb (OB) and medial prefrontal cortex (mPFC)."
+description: 'Calcium imaging of neurons in mouse piriform cortex (PCx) under passive
+  odor stimulation or task-relevant odor stimulation (Go/NoGo). Subsets of neurons
+  are are retrogradely-labeled to indicated their projection targets (one target per
+  animal): olfactory bulb (OB) and medial prefrontal cortex (mPFC).'
 ethicsApproval: []
 id: DANDI:000785/draft
 identifier: DANDI:000785
